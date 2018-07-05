@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB51DB2E20ECAF4B0037CA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51DB2D20ECAF4B0037CA5E /* AppDelegate.swift */; };
+		EB51DB3020ECAF4B0037CA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51DB2F20ECAF4B0037CA5E /* ViewController.swift */; };
+		EB51DB3320ECAF4B0037CA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB51DB3120ECAF4B0037CA5E /* Main.storyboard */; };
+		EB51DB3520ECAF4B0037CA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB51DB3420ECAF4B0037CA5E /* Assets.xcassets */; };
+		EB51DB3820ECAF4B0037CA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB51DB3620ECAF4B0037CA5E /* LaunchScreen.storyboard */; };
+		EB51DB4320ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51DB4220ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.swift */; };
+		EB51DB4E20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51DB4D20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.swift */; };
+		EB51DB5C20ECDD9E0037CA5E /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB51DB5B20ECDD9E0037CA5E /* HeaderView.xib */; };
+		EB51DB5E20ECDF420037CA5E /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51DB5D20ECDF420037CA5E /* CustomHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB51DB3F20ECAF4B0037CA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB51DB2220ECAF4B0037CA5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB51DB2920ECAF4B0037CA5E;
+			remoteInfo = SlideNavigationWithButtons;
+		};
+		EB51DB4A20ECAF4B0037CA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB51DB2220ECAF4B0037CA5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB51DB2920ECAF4B0037CA5E;
+			remoteInfo = SlideNavigationWithButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB51DB2A20ECAF4B0037CA5E /* SlideNavigationWithButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideNavigationWithButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB51DB2D20ECAF4B0037CA5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB51DB2F20ECAF4B0037CA5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB51DB3220ECAF4B0037CA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB51DB3420ECAF4B0037CA5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB51DB3720ECAF4B0037CA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB51DB3920ECAF4B0037CA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB51DB3E20ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideNavigationWithButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB51DB4220ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNavigationWithButtonsTests.swift; sourceTree = "<group>"; };
+		EB51DB4420ECAF4B0037CA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB51DB4920ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideNavigationWithButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB51DB4D20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNavigationWithButtonsUITests.swift; sourceTree = "<group>"; };
+		EB51DB4F20ECAF4B0037CA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB51DB5B20ECDD9E0037CA5E /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		EB51DB5D20ECDF420037CA5E /* CustomHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB51DB2720ECAF4B0037CA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB3B20ECAF4B0037CA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB4620ECAF4B0037CA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB51DB2120ECAF4B0037CA5E = {
+			isa = PBXGroup;
+			children = (
+				EB51DB2C20ECAF4B0037CA5E /* SlideNavigationWithButtons */,
+				EB51DB4120ECAF4B0037CA5E /* SlideNavigationWithButtonsTests */,
+				EB51DB4C20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests */,
+				EB51DB2B20ECAF4B0037CA5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB51DB2B20ECAF4B0037CA5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB51DB2A20ECAF4B0037CA5E /* SlideNavigationWithButtons.app */,
+				EB51DB3E20ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.xctest */,
+				EB51DB4920ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB51DB2C20ECAF4B0037CA5E /* SlideNavigationWithButtons */ = {
+			isa = PBXGroup;
+			children = (
+				EB51DB2D20ECAF4B0037CA5E /* AppDelegate.swift */,
+				EB51DB2F20ECAF4B0037CA5E /* ViewController.swift */,
+				EB51DB5B20ECDD9E0037CA5E /* HeaderView.xib */,
+				EB51DB5D20ECDF420037CA5E /* CustomHeader.swift */,
+				EB51DB3120ECAF4B0037CA5E /* Main.storyboard */,
+				EB51DB3420ECAF4B0037CA5E /* Assets.xcassets */,
+				EB51DB3620ECAF4B0037CA5E /* LaunchScreen.storyboard */,
+				EB51DB3920ECAF4B0037CA5E /* Info.plist */,
+			);
+			path = SlideNavigationWithButtons;
+			sourceTree = "<group>";
+		};
+		EB51DB4120ECAF4B0037CA5E /* SlideNavigationWithButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB51DB4220ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.swift */,
+				EB51DB4420ECAF4B0037CA5E /* Info.plist */,
+			);
+			path = SlideNavigationWithButtonsTests;
+			sourceTree = "<group>";
+		};
+		EB51DB4C20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB51DB4D20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.swift */,
+				EB51DB4F20ECAF4B0037CA5E /* Info.plist */,
+			);
+			path = SlideNavigationWithButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB51DB2920ECAF4B0037CA5E /* SlideNavigationWithButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB51DB5220ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtons" */;
+			buildPhases = (
+				EB51DB2620ECAF4B0037CA5E /* Sources */,
+				EB51DB2720ECAF4B0037CA5E /* Frameworks */,
+				EB51DB2820ECAF4B0037CA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideNavigationWithButtons;
+			productName = SlideNavigationWithButtons;
+			productReference = EB51DB2A20ECAF4B0037CA5E /* SlideNavigationWithButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB51DB3D20ECAF4B0037CA5E /* SlideNavigationWithButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB51DB5520ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtonsTests" */;
+			buildPhases = (
+				EB51DB3A20ECAF4B0037CA5E /* Sources */,
+				EB51DB3B20ECAF4B0037CA5E /* Frameworks */,
+				EB51DB3C20ECAF4B0037CA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB51DB4020ECAF4B0037CA5E /* PBXTargetDependency */,
+			);
+			name = SlideNavigationWithButtonsTests;
+			productName = SlideNavigationWithButtonsTests;
+			productReference = EB51DB3E20ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB51DB4820ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB51DB5820ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtonsUITests" */;
+			buildPhases = (
+				EB51DB4520ECAF4B0037CA5E /* Sources */,
+				EB51DB4620ECAF4B0037CA5E /* Frameworks */,
+				EB51DB4720ECAF4B0037CA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB51DB4B20ECAF4B0037CA5E /* PBXTargetDependency */,
+			);
+			name = SlideNavigationWithButtonsUITests;
+			productName = SlideNavigationWithButtonsUITests;
+			productReference = EB51DB4920ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB51DB2220ECAF4B0037CA5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vikas Pundora";
+				TargetAttributes = {
+					EB51DB2920ECAF4B0037CA5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					EB51DB3D20ECAF4B0037CA5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB51DB2920ECAF4B0037CA5E;
+					};
+					EB51DB4820ECAF4B0037CA5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB51DB2920ECAF4B0037CA5E;
+					};
+				};
+			};
+			buildConfigurationList = EB51DB2520ECAF4B0037CA5E /* Build configuration list for PBXProject "SlideNavigationWithButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB51DB2120ECAF4B0037CA5E;
+			productRefGroup = EB51DB2B20ECAF4B0037CA5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB51DB2920ECAF4B0037CA5E /* SlideNavigationWithButtons */,
+				EB51DB3D20ECAF4B0037CA5E /* SlideNavigationWithButtonsTests */,
+				EB51DB4820ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB51DB2820ECAF4B0037CA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51DB3820ECAF4B0037CA5E /* LaunchScreen.storyboard in Resources */,
+				EB51DB3520ECAF4B0037CA5E /* Assets.xcassets in Resources */,
+				EB51DB3320ECAF4B0037CA5E /* Main.storyboard in Resources */,
+				EB51DB5C20ECDD9E0037CA5E /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB3C20ECAF4B0037CA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB4720ECAF4B0037CA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB51DB2620ECAF4B0037CA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51DB3020ECAF4B0037CA5E /* ViewController.swift in Sources */,
+				EB51DB2E20ECAF4B0037CA5E /* AppDelegate.swift in Sources */,
+				EB51DB5E20ECDF420037CA5E /* CustomHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB3A20ECAF4B0037CA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51DB4320ECAF4B0037CA5E /* SlideNavigationWithButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51DB4520ECAF4B0037CA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51DB4E20ECAF4B0037CA5E /* SlideNavigationWithButtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB51DB4020ECAF4B0037CA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB51DB2920ECAF4B0037CA5E /* SlideNavigationWithButtons */;
+			targetProxy = EB51DB3F20ECAF4B0037CA5E /* PBXContainerItemProxy */;
+		};
+		EB51DB4B20ECAF4B0037CA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB51DB2920ECAF4B0037CA5E /* SlideNavigationWithButtons */;
+			targetProxy = EB51DB4A20ECAF4B0037CA5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB51DB3120ECAF4B0037CA5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB51DB3220ECAF4B0037CA5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB51DB3620ECAF4B0037CA5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB51DB3720ECAF4B0037CA5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB51DB5020ECAF4B0037CA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB51DB5120ECAF4B0037CA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB51DB5320ECAF4C0037CA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlideNavigationWithButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB51DB5420ECAF4C0037CA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlideNavigationWithButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB51DB5620ECAF4C0037CA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideNavigationWithButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideNavigationWithButtons.app/SlideNavigationWithButtons";
+			};
+			name = Debug;
+		};
+		EB51DB5720ECAF4C0037CA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideNavigationWithButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideNavigationWithButtons.app/SlideNavigationWithButtons";
+			};
+			name = Release;
+		};
+		EB51DB5920ECAF4C0037CA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlideNavigationWithButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlideNavigationWithButtons;
+			};
+			name = Debug;
+		};
+		EB51DB5A20ECAF4C0037CA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlideNavigationWithButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phpyouth.com.SlideNavigationWithButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlideNavigationWithButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB51DB2520ECAF4B0037CA5E /* Build configuration list for PBXProject "SlideNavigationWithButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51DB5020ECAF4B0037CA5E /* Debug */,
+				EB51DB5120ECAF4B0037CA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB51DB5220ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51DB5320ECAF4C0037CA5E /* Debug */,
+				EB51DB5420ECAF4C0037CA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB51DB5520ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51DB5620ECAF4C0037CA5E /* Debug */,
+				EB51DB5720ECAF4C0037CA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB51DB5820ECAF4C0037CA5E /* Build configuration list for PBXNativeTarget "SlideNavigationWithButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51DB5920ECAF4C0037CA5E /* Debug */,
+				EB51DB5A20ECAF4C0037CA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB51DB2220ECAF4B0037CA5E /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="17D47" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomHeader" customModule="SlideNavigationWithButtons" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uX2-5a-f0K" customClass="CustomHeader" customModule="SlideNavigationWithButtons" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQE-0C-zzc">
+                            <rect key="frame" x="76" y="0.0" width="109" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="109" id="L7D-Vc-qpo"/>
+                            </constraints>
+                            <state key="normal" title="First">
+                                <color key="titleColor" red="1" green="0.5299248688" blue="0.5726672344" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27Q-9V-NAV">
+                            <rect key="frame" x="193" y="0.0" width="109" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="109" id="zjB-4u-KTZ"/>
+                            </constraints>
+                            <state key="normal" title="Second">
+                                <color key="titleColor" red="1" green="0.5299248688" blue="0.5726672344" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="27Q-9V-NAV" firstAttribute="top" secondItem="uX2-5a-f0K" secondAttribute="top" id="Idn-UN-2GH"/>
+                        <constraint firstAttribute="bottom" secondItem="27Q-9V-NAV" secondAttribute="bottom" id="Mpc-ay-p6n"/>
+                        <constraint firstItem="CQE-0C-zzc" firstAttribute="leading" secondItem="uX2-5a-f0K" secondAttribute="leading" constant="76" id="QAc-Pq-mW4"/>
+                        <constraint firstAttribute="bottom" secondItem="CQE-0C-zzc" secondAttribute="bottom" id="Rki-f1-Yzg"/>
+                        <constraint firstItem="27Q-9V-NAV" firstAttribute="leading" secondItem="CQE-0C-zzc" secondAttribute="trailing" constant="8" id="UEo-HC-pnU"/>
+                        <constraint firstItem="CQE-0C-zzc" firstAttribute="top" secondItem="uX2-5a-f0K" secondAttribute="top" id="cod-pP-Wbb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uX2-5a-f0K" secondAttribute="trailing" id="0Er-j0-xaS"/>
+                <constraint firstItem="uX2-5a-f0K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Axw-JQ-JUF"/>
+                <constraint firstAttribute="bottom" secondItem="uX2-5a-f0K" secondAttribute="bottom" id="X5G-ki-qTW"/>
+                <constraint firstItem="uX2-5a-f0K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gFp-BW-p6F"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="47.5" y="30"/>
+        </view>
+    </objects>
+</document>
